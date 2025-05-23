@@ -64,9 +64,10 @@ main {
 
 .card {
   border: 1px solid black;
-  padding: 1rem;
+  padding: 2rem;
   border-radius: 10px;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
 }
 
 .profile {
@@ -77,6 +78,19 @@ main {
 .profile img {
   width: 50%;
   height: 100%;
+  margin-bottom: 1rem;
+}
+
+.ring {
+  background-image: url(ringBinder.png);
+  background-size: contain;
+  height: 6rem;
+  width: 80%;
+
+  position: absolute;
+  bottom: -3.5rem;
+  left: 10%;
+  z-index: 1;
 }
 
 h3 {
