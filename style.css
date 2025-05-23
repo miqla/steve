@@ -60,6 +60,15 @@ main {
   padding: 1rem;
 }
 
+.profile {
+  display: flex;
+  gap: 1rem;
+}
+
+.profile img {
+  width: 30rem;
+}
+
 h3 {
   color: rgb(27, 83, 224);
 }
