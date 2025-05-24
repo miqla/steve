@@ -133,3 +133,10 @@ footer {
   background-color: #bc8dff;
   padding: 10px;
 }
+
+.icons {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
