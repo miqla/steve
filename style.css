@@ -66,6 +66,15 @@ aside {
   width: 30%;
 }
 
+aside p,
+aside h3 {
+  text-align: center;
+}
+
+aside img {
+  width: 100%;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -116,5 +125,5 @@ p {
 h4 {
   margin-bottom: 8px;
   border-top: 1px solid black;
-  padding-top: 8px;
+  padding-top: 16px;
 }
