@@ -120,6 +120,10 @@ main {
   z-index: 1;
 }
 
+.none {
+  display: none;
+}
+
 h1 {
   margin-top: 0;
 }
@@ -171,10 +175,21 @@ footer p {
   aside {
     width: 100%;
   }
+
+  .none {
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .nav-list {
     display: none;
+  }
+  .profile {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .profile img {
+    width: 90%;
   }
 }
